@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #F2F2F2;
+	font-family: calibri;
+	color: white;
+	background: url('../images/header.jpg') center 0 fixed;
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+    background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+h1,h2,h3{
+	text-shadow: 0 1px 0 #000;
+}
+#mainMenu{
+	width: 100%;
+	background-image:-webkit-linear-gradient(330deg, #000F1C, #000F1C);
+	background-image:-o-linear-gradient(330deg, #000F1C, #000F1C);
+	background-image:linear-gradient(60deg, #000F1C, #000F1C);
+	height: 50px;
+	position: fixed;
+	z-index: 100;
+	moz-box-shadow: 10px 10px 15px 0px black;
+	-webkit-box-shadow: 10px 10px 15px 0px black;
+	-o-box-shadow: 10px 10px 15px 0px black;
+	box-shadow: 10px 10px 15px 0px black;
+	overflow: hidden;
+}
+#mainMenu img{
+	float: left;
+	width: 18%;
+	margin-top: -8px;
+}
+#mainMenu nav {
+	float: right;
+	margin-right: 2%;
+	margin-top: 15px;
+}
+#mainMenu li{
+	display: inline-block;
+	height: 50px;	
+}
+#mainMenu a{
+	padding: 16px;
+	margin-right: -5px;
+}
+#mainMenu nav a:hover{
+	background-color: #2AACD9;
+	font-weight: bold;
+}
+#mainMenu nav a:active{
+	background-color: #ed4040;
+}
+.tchat{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #F2F2F2;
+	width: 20%;
+	padding-top: 50px;
+
+}
+.tchat ul{
+
+}
+.tchat .people{
+	color: #000F1C;
+	display: block;
+	width: 100%;
+}
+.tchat .tchatPeople{
+	list-style-type: none;
+}
+.menuTchat{
+	list-style-type: none;
+	text-align: center;
+}
+.TchatCategories{
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #000F1C;
+	display: block;
+	color: white;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+footer{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000F1C;
+	text-align: center;
+	height: 30px;
+	z-index: -10;
+}
